@@ -114,7 +114,7 @@
             </xsl:for-each>
         </xsl:template>
         
-        <!--   to tokenize publishers -->
+        <!--   To tokenize publishers -->
         <xsl:template match="mods:originInfo[mods:publisher]" exclude-result-prefixes="#all">
             <xsl:variable name="originInfo-attributes" select="@*"/>
             <xsl:for-each select="mods:publisher">
